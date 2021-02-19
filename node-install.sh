@@ -6,7 +6,7 @@ if [ -z "$version" ]; then
   version=14
 fi
 
-echo "Installing Nod.js version $version"
+echo "Installing version $version of Node.js"
 
 # Below is taken from https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
 sudo apt-get update
